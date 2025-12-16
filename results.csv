@@ -1,0 +1,10 @@
+File1,File2,Method,Similarity(%)
+ai.txt,humanise.txt,Word Overlap,7.32
+ai.txt,humanise.txt,Word Overlap,7.32
+ai.txt,humanise.txt,Cosine Similarity,6.92
+ai.txt,humanise.txt,Word Overlap,7.32,Low Plagiarism
+ai.txt,humanise.txt,Word Overlap,7.32,Low Plagiarism
+ai.txt,humanise.txt,Word Overlap,7.32,Low Plagiarism
+ai.txt,humanise.txt,Word Overlap,7.32,Low Plagiarism
+ai.txt,humanise.txt,Cosine Similarity,6.92,Low Plagiarism
+AI.TXT,HUMANISE.TXT,Word Overlap,7.32,Low Plagiarism

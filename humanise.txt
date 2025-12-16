@@ -1,0 +1,3 @@
+When we started using our software in-house, we were able to cut processing time by 30%,
+ completing a two-hour task in just 85 mins. Our clients agree it frees their teams to focus 
+ on the big picture instead of getting bogged down by repetitive tasks
