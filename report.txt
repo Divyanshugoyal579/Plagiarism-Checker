@@ -46,3 +46,27 @@ Similarity : 7.32%
 Status     : Low Plagiarism
 ----------------------------
 
+---- Plagiarism Report ----
+File 1     : ai.txt
+File 2     : humanise.txt
+Method     : Word Overlap
+Similarity : 7.32%
+Status     : Low Plagiarism
+----------------------------
+
+---- Plagiarism Report ----
+File 1     : ai.txt
+File 2     : humanise.txt
+Method     : Word Overlap
+Similarity : 7.32%
+Status     : Low Plagiarism
+----------------------------
+
+---- Plagiarism Report ----
+File 1     : ai.txt
+File 2     : humanise.txt
+Method     : Word Overlap
+Similarity : 7.32%
+Status     : Low Plagiarism
+----------------------------
+

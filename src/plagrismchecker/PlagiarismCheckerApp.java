@@ -3,6 +3,8 @@ import java.io.*;
 import java.util.*;
 import result.SimilarityResult;
 import csv.CSVExporter;
+import report.ReportGenerator;
+
 
 
 class FileHandler {
@@ -76,7 +78,7 @@ public class PlagiarismCheckerApp {
             System.out.println("3. Exit");
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
-            sc.nextLine();
+            sc.nextLine(); 
 
             if (choice == 1 || choice == 2) {
                 try {
@@ -92,7 +94,7 @@ public class PlagiarismCheckerApp {
                     double similarity = checker.checkSimilarity(text1, text2);
 
                     System.out.printf("Similarity: %.2f%%\n", similarity);
-
+                   
                     SimilarityResult result = new SimilarityResult(
                             file1,
                             file2,
@@ -101,7 +103,16 @@ public class PlagiarismCheckerApp {
                     );
 
                     CSVExporter.writeResult("results.csv", result);
+                    SimilarityResult result1 = new SimilarityResult(
+                            file1,
+                            file2,
+                            (choice == 1 ? "Word Overlap" : "Cosine Similarity"),
+                            similarity
+                    );
 
+                   
+                    ReportGenerator.generateReport("report.txt", result);
+                    System.out.println(result1);
 
                 }
                 catch (Exception e) {
@@ -114,7 +125,7 @@ public class PlagiarismCheckerApp {
                 System.out.println("Invalid choice!");
             }
         }
-
+      
 
         sc.close();
     }
